@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:url(http://desktopwallpapers.org.ua/pic/201201/1920x1200/desktopwallpapers.org.ua-11070.jpg);
+    background-attachment: fixed;
+    backdrop-filter: blur(10px);
+}
+.section{
+    display: none;
+    width: 100vw;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#today{
+    display: none;
+    width: 95vw;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+#hourlyNow{
+    display: flex;
+    width: 100vw;
+    height: 45vh;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    margin: 10px;
+    margin-top: 5vh;
+    height: 40vh;
+}
+.card .card-content p{
+    margin: 3px;
+}
+#dailyCity{
+    font-size: 20px;
+}
+.bigDig{
+    width: 50vw;
+    height: 52vh;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    box-shadow : 3px 3px 20px 4px grey;
+}
+.bigDig .icon{
+    width: 140px;
+    height: 140px;
+    margin-bottom: 0;
+}
+.bigDig img{
+    height: 52vh;
+}
+.call{
+    display:flex;
+    flex-direction: column;
+}
+#daily{
+    display: flex;
+    width: 100vw;
+    height: 45vh;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    background-color: rgb(91, 179, 206);
+    /* display:flex; */
+    justify-content:center;
+    height: 10vh;
+    flex-direction:row;
+}
+.form{
+    width: 40vw;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height:6vh;
+    margin-top:2vh;
+}
+.brand-logo{
+    margin-left: 40px;
+    padding-bottom:10px !important;
+    font-size:4rem !important;
+}
+#inp{
+    font-size: 25px;
+    /* margin-top: 20px; */
+    width: 20vw;
+    color: white;
+    font-style: oblique;
+}
+a{
+    height:10vh;
+    margin-top:0;
+    display:flex !important;
+    align-items:center;
+    flex-direction: column;
+    font-size: 3rem !important;
+    padding-top: 10px !important;
+}
+ul{
+    height:10vh;
+} 
+#otherCities{
+    display:flex;
+    width:90vw;
+    flex-direction:row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center;
+
+}
+.city-small{
+    display: flex;
+    width: 15vw;
+    height: 40vh;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    color: white;
+}
+hr{
+width:70vw;
+}
+
+.fix{
+    position: sticky !important;
+}
+.sevD{
+    height: 90vh;
+}
+.dayD{
+    margin-bottom: 30vh;
+}
